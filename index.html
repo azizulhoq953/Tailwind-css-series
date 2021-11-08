@@ -2,7 +2,7 @@
 <!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
 <!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
 <!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!<![endif]-->
 <html>
     <head>
         <meta charset="utf-8">
@@ -12,9 +12,27 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="./output/tailwind.css">
     </head>
-    <body>
+    <body class="h-screen flex items-center text-center 
+    bg-red-100">
     
-        <div class="w-32 h-32 bg-gray-900 m-12 text-white text-center">Hello</div>
+       <div class=" max-w-sm mx-auto p-8 bg-white 
+       rounded-xl shadow-md space-y-2 ">
+           <img class=" h-24 max-auto rounded-full ring-4 
+            ring-green-400" src="img/my.png" alt="Azizur logo">
+
+           <div class="text-center">
+            
+            <div>       
+               <p class=" text-lg text-black font-semibold " > Learn You Tailwind </p>
+                <p class="text-gray-500 font-medium " >My Profile</p></div>
+
+           </div>
+
+           <button class=" px-4 py-1 border border-purple-100 rounded-full text-sm text-purple-600 font-semibold " >Visit now</button>
+
+  
+       </div>
+       
 
         <script src=""></script>
     </body>
